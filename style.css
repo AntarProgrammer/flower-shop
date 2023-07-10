@@ -4,7 +4,7 @@ body{
 .banner{
     display: flex;
     background-color: rgb(232, 84, 215, 0.10);
-    width: 100%;
+    width: auto;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -34,4 +34,52 @@ body{
 }
 .banner .profile-img{
     width: 500px; 
+}
+
+            /* first section */          
+.section-title{
+    font-size: 35px;
+} 
+.secttion-description{
+    font-size: 25px;
+
+}  
+.second-section{
+    line-height: 15px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}  
+
+.porfile-flower{
+    display: flex;
+    justify-content: space-around;
+}
+.flower-1{
+    background-color: rgb(167, 33, 98, 0.15);
+    border-radius: 350px 350px 0px 0px;
+}
+.flower-2{
+    background-color: rgb(5, 151, 60, 0.15);
+    border-radius: 350px 350px 0px 0px;
+}
+.flower-img{
+    width: 300px;
+    height: 350px;
+    padding: 40px 20px 0px 40px;
+}
+.flower-3{
+    background-color: rgb(71, 125, 17,0.15);
+    border-radius: 350px 350px 0px 0px;
+}
+.flower-title{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: -40px;
+    text-decoration-line: underline;
+}
+.porfile-flower{
+    padding: 60px 150px;
 }
