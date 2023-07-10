@@ -189,4 +189,22 @@ body{
     width: 400px;
     height: 40px;
     border: 0;
+    margin-left: 20px;
 }  
+        /* seventh section */
+.flower-shop{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px 30px 120px 180px;
+}        
+
+ .flower-shop-title{
+    font-size: 30px;
+ }    
+ .flower-shop-description{
+    font-size: 16px;
+ }   
+ .text-primary{
+    color: #E55473;
+ }
