@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+}
+.banner{
+    display: flex;
+    background-color: rgb(232, 84, 215, 0.10);
+    width: 100%;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #E55473;
+    border-radius: 3px solid #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 15px;
+}
+.banner .profile-img{
+    width: 500px; 
+}
