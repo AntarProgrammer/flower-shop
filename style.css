@@ -1,7 +1,16 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+
 body{
     font-family: sans-serif;
-    width: auto;
-    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Lato', sans-serif;
+    /* width: auto;
+    height: auto; */
 }
 .banner{
     display: flex;
@@ -31,7 +40,6 @@ body{
     font-weight: 700;
     line-height: normal;
     padding: 8px 15px;
-  
 }
 .banner .profile-img{
     width: 500px; 
@@ -106,7 +114,7 @@ body{
 
      /* third section */
 
-.forth-section{
+.fifth-section{
     background-color: rgb(229, 84, 115, 0.05);
 }     
 
@@ -140,7 +148,7 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding: 8px 15px;
+    padding: 10px 10px;
     margin-left: 220px;
 }
          /* forth section */
@@ -167,7 +175,7 @@ body{
 }
 
          /* fifth section */
-.sixth-section{
+.seventh-section{
     text-align: center;
     background-image: url(images/Rectangle\ 9.png);
     margin-top: 150px;
@@ -191,7 +199,74 @@ body{
     border: 0;
     margin-left: 20px;
 }  
-        /* seventh section */
+
+
+
+
+
+
+
+
+.product-title{
+    font-size: 30px;
+    text-align: center;
+}
+.product-description{
+    font-size: 18px;
+    text-align: center;
+}
+.img-product{
+    display: flex;
+    justify-content: space-around;
+    margin:  60px 60px 40px 100px;
+    margin-bottom: 100px;
+}
+.img-1{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.pro-title{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .flower-shop{
     text-align: center;
     color: white;
@@ -206,4 +281,7 @@ body{
  }   
  .text-primary{
     color: #E55473;
+ }
+ .pro-title{
+    text-decoration-line: underline;
  }
